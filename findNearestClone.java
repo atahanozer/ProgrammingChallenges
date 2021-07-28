@@ -51,9 +51,6 @@ public class Solution {
         count++;
         
         List<Integer> neighbours = adj.get(x);
-        System.out.println("val "+ val);
-        System.out.println(x);
-        System.out.println(neighbours);
         
         for(int i = 0; i < neighbours.size(); i++) {
             if (!visited[neighbours.get(i)]) {
