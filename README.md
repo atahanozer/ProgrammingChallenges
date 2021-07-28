@@ -34,6 +34,17 @@ describe('Challenge', function() {
     assert.equal(sortCsvColumns("Beth,charles,Danielle,Adam,Eric\n17945,10091,10088,3907,10132\n2,12,13,48,11"), "Adam,Beth,charles,Danielle,Eric\n3907,17945,10091,10088,10132\n48,2,12,13,11");
   });
   
+# findNearestClone
+https://www.hackerrank.com/challenges/find-the-nearest-clone
+
+there is a connected undirected graph where each of the nodes is a color. Given a color, find the shortest path connecting any two nodes of that color. Each edge has a weight of . If there is not a pair or if the color is not found, print .
+
+For example, given , and  edges  and  and colors for each node are  we can draw the following graph:
+
+https://s3.amazonaws.com/hr-assets/0/1529952915-a96eba7baa-nearestcloneexample.png
+
+Each of the nodes is labeled [node]/[color] and is colored appropriately. If we want the shortest path between color , blue, we see there is a direct path between nodes  and . For green, color , we see the path length  from . There is no pair for node  having color , red.
+  
 # pokerCalculator
 
 A famous casino is suddenly faced with a sharp decline of their revenues. They decide to offer Texas hold'em also online. Can you help them by writing an algorithm that can rank poker hands?
